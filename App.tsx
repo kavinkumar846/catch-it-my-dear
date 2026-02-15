@@ -248,7 +248,7 @@ const App: React.FC = () => {
             className="h-screen w-full"
           >
             <VideoTribute
-              //////////want to add a videooo videoSrc=""
+              videoSrc="https://image2url.com/r2/default/videos/1771154066708-51134d03-8d9a-4723-9107-bfdaf8310338.mp4"
               onComplete={() => setPhase('finalVideo')}
               onBack={handleBack}
               isEnd={false}
